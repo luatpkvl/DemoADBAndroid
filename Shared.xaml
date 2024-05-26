@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!--Text-->
+    <Color x:Key="TextGray">#5f7682</Color>
+    <SolidColorBrush x:Key="TextDarkBlue" Color="#1a237e"/>
+    <SolidColorBrush x:Key="ColorWhite" Color="#FFF"/>
+
+    <!--Border-->
+    <SolidColorBrush x:Key="BorderGray"
+                     Color="#6d7579" />
+    <!--BackGround-->
+    <SolidColorBrush x:Key="Bg_Item_Phone" 
+                     Color="#006064"/> 
+    <SolidColorBrush x:Key="Bg_Item_Phone_Dark" 
+                     Color="#00363a"/>
+    <SolidColorBrush x:Key="Bg_Item_Phone_Red" 
+                     Color="#c62828"/>
+    <SolidColorBrush x:Key="Bg_Item_Phone_Green" 
+                     Color="#2e7d32"/>
+</ResourceDictionary>

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>privacy_icon_146112.ico</ApplicationIcon>
+    <UseWindowsForms>False</UseWindowsForms>
+    <FileVersion>1.0.0.3</FileVersion>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="whatsapp_socialnetwork_17360.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK" Version="2.3.55.2" />
+    <PackageReference Include="Hardware.Info" Version="11.1.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.29.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="System.Management" Version="7.0.2" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoLaw">
+      <HintPath>..\ProtonRegister\CheckLiveApple\Lib\AutoLaw.dll</HintPath>
+    </Reference>
+    <Reference Include="KAutoHelper">
+      <HintPath>bin\Debug\netcoreapp3.1\KAutoHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
